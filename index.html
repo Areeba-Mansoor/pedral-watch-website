@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pedral Watch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="main">
+            <div class="nav-icons">
+                <img src="./assets/nav/Card 1.png" alt="" id="nav-img">
+                <h4>SECURE PAYMENTS</h4>
+            </div>
+            <div class="nav-icons">
+                <img src="./assets/nav/Plane 1.png" alt="" id="nav-img">
+                <h4>EXPRESS SHIPING FOR ALL ORDER </h4>
+            </div>
+            <div class="nav-icons">
+                <img src="./assets/nav/Box 1.png" alt="" id="nav-img">
+                <h4>EXCHANGE AND RETURN</h4>
+            </div>
+            <div class="nav-icons">
+                <img src="./assets/nav/Globe 1.png" alt="" id="nav-img">
+                <h4>AVG. 3-5 BUSINESS DAYS DELIVERY</h4>
+            </div>
+            <div class="nav-icons">
+                <img src="./assets/nav/Time 1.png" alt="" id="nav-img">
+                <h4>NEXT SHIPMENT TO INDIA: 5H: 27M 58S</h4>
+            </div>
+
+        </div>
+    </nav>
+    <header class="header">
+        <div class="logo"><img src="./assets/logo.png"></div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+        <ul class="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="./product.html">LIMITED EDITION</a></li>
+            <li><a href="./brandstory.html">BRAND STORY</a></li>
+            <li><a href="#">ONLINE BOUTIQUE</a></li>
+            <li><a href="#News">NEWS</a></li>
+            <li><a href="#instagram">INSTAGRAM</a></li>
+            <li><a href="#"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></a></li>
+        </ul>
+
+    </header>
+    <!-- ------------------carousel----------------- -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner ">
+
+            <div class="carousel-item active slide">
+                <div class="carousel-caption d-md-block slider-text">
+                    <h5 class="fs-2 text-center">THE LIMITED EDITION
+                        <span class="text-warning"> GOLDEN ARTEFCT </span>
+                    </h5>
+                    <p class="text-center">Experience the timeless elegance of Luxe Time Watches - Luxury timepieces
+                        for the modern era.</p>
+
+
+                    <!-- Button trigger modal -->
+                    <div class="container">
+                        <button type="button" class="btn-slider" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Shop Now <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+                        </button>
+                        <button class="btn-exploer">Exploer More</button>
+                    </div>
+
+
+                    <!-- Modal -->
+                    <div class="modal fade pt-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog rounded">
+                            <div class="modal-content p-2 box">
+                                <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                <div class="modal-header p-0 rounded border-white d-flex">
+
+                                    <img src="./assets/notification/notification-img.jpg " alt="watch" id="join-img">
+                                    <div class="form">
+                                        <h2>JOIN WAILIST</h2>
+                                        <P>we will inform you when the product arrives in stock. please leave your
+                                            vaild email address
+                                            below</P>
+                                        <label for="">Enter Your Email</label> <br>
+                                        <input type="email" name="" placeholder="Enter Your Email Address Here">
+                                        <br>
+                                        <button type="submit">Join The Walist</button>
+                                    </div>
+
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary btnn"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary btns">Registered Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <img src="./assets/slider-image/slider1.jpg" class="d-block w-100" alt="...">
+
+            </div>
+            <div class="carousel-item slide">
+                <img src="./assets/slider-image/slider2.jpg" class="d-block w-100" alt="...">
+
+            </div>
+            <div class="carousel-item slide">
+                <img src="./assets/slider-image/slider-0.jpg" class="d-block w-100" alt="...">
+
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- -------hero section-------- -->
+    <section class="hero-container">
+        <div>
+            <h2>Welcome to Pedral Watches</h2>
+            <p>At Pedral Watches, we believe that timekeeping is more than just a function—it's an art form. The
+                journey began with a dream and a defiant spirit determined to forge a unique path in the world of
+                horology. Our story is not one of tradition but of innovation and unwavering resilience. From the heart
+                of Stockholm, we create timepieces that blend the boldness of retro-futurism with the minimalist
+                elegance of Swedish design. Each watch is a testament to our belief that true designs barriers are the
+                ones we set for ourselves.</p>
+
+            <button>Continue reading our story</button>
+        </div>
+    </section>
+    <section class="hero-section">
+        <h2>Discover our latest creations</h2>
+        <div class="slogen">
+            <div class="slogen-text">
+                <h1>Artefact</h1>
+                <p>A watch is a portable timepiece that is designed to be worn on the wrist or carried in the pocket.
+                    The movement of a watch is driven either by a spring or by electricity.  </p>
+                <button>EXPLORE MORE</button>
+            </div>
+            <div>
+                <img src="./assets/hero-section/blueprint-gray 1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="slogen2">
+            <div>
+                <img src="./assets/hero-section/OKAPI-brown 2 (1).png" alt="">
+            </div>
+            <div class="slogen-text">
+                <h1>Skulptur</h1>
+                <p>A watch is a portable timepiece that is designed to be worn on the wrist or carried in the pocket.
+                    The movement of a watch is driven either by a spring or by electricity.  </p>
+                <button>EXPLORE MORE</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------cards------------- -->
+    <section class="card-section">
+        <div>
+            <h1>Explore Our Collotions</h1>
+
+            <div class="container d-flex justify-content-center flex-wrap mt-3">
+
+                <!-- ----card1----- -->
+                <div class="card p-2" style="width: 20rem;">
+                    <div class="card-box">
+                        <img src="./assets/products/images-removebg-preview.png" class="card-img-top card-img"
+                            alt="...">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">RYMD</h5>
+                        <p class="card-text text-center">STAINLESS STEEL /37 MM.</p>
+                        <a href="#" class="btn btn-success">777 EUR</a>
+                    </div>
+                </div>
+
+                <!-- ----card2----- -->
+                <div class="card p-2" style="width: 20rem;">
+                    <div class="card-box">
+                        <img src="./assets/products/images__1_-removebg-preview.png" class="card-img-top card-img"
+                            alt=".">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">RYMD</h5>
+                        <p class="card-text text-center">STAINLESS STEEL /37 MM.</p>
+                        <a href="#" class="btn btn-success">777 EUR</a>
+                    </div>
+                </div>
+
+                <!-- ----card3----- -->
+                <div class="card p-2" style="width: 20rem;">
+                    <div class="card-box">
+                        <img src="./assets/products/images__2_-removebg-preview.png" class="card-img-top card-img"
+                            alt="...">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">RYMD</h5>
+                        <p class="card-text text-center">STAINLESS STEEL /37 MM.</p>
+                        <a href="#" class="btn btn-success">777 EUR</a>
+                    </div>
+                </div>
+                <!-- ----card4----- -->
+                <div class="card p-2" style="width: 20rem;">
+                    <div class="card-box">
+                        <img src="./assets/products/images__3_-removebg-preview.png" class="card-img-top card-img"
+                            alt="...">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">RYMD</h5>
+                        <p class="card-text text-center">STAINLESS STEEL /37 MM.</p>
+                        <a href="#" class="btn btn-success">777 EUR</a>
+                    </div>
+                </div>
+
+                <!-- ----card5----- -->
+                <div class="card p-2" style="width: 20rem;">
+                    <div class="card-box">
+                        <img src="./assets/products/images__4_-removebg-preview.png" class="card-img-top card-img"
+                            alt="...">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">RYMD</h5>
+                        <p class="card-text text-center">STAINLESS STEEL /37 MM.</p>
+                        <a href="#" class="btn btn-success">777 EUR</a>
+                    </div>
+                </div>
+
+
+
+                <!-- ----card6----- -->
+                <div class="card p-2" style="width: 20rem;">
+                    <div class="card-box">
+                        <img src="./assets/products/images__5_-removebg-preview.png" class="card-img-top card-img"
+                            alt="...">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">RYMD</h5>
+                        <p class="card-text text-center">STAINLESS STEEL /37 MM.</p>
+                        <a href="#" class="btn btn-success">777 EUR</a>
+                    </div>
+                </div>
+
+                <!-- ----card7----- -->
+                <div class="card p-2" style="width: 20rem;">
+                    <div class="card-box">
+                        <img src="./assets/products/images__6_-removebg-preview.png" class="card-img-top card-img"
+                            alt="...">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">RYMD</h5>
+                        <p class="card-text text-center">STAINLESS STEEL /37 MM.</p>
+                        <a href="#" class="btn btn-success">777 EUR</a>
+                    </div>
+                </div>
+
+                <!-- ----card8----- -->
+                <div class="card p-2" style="width: 20rem;">
+                    <div class="card-box">
+                        <img src="./assets/products/images__8_-removebg-preview.png" class="card-img-top card-img"
+                            alt="...">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">RYMD</h5>
+                        <p class="card-text text-center">STAINLESS STEEL /37 MM.</p>
+                        <a href="#" class="btn btn-success">777 EUR</a>
+                    </div>
+                </div>
+
+                <!-- ----card9----- -->
+                <div class="card p-2" style="width: 20rem;">
+                    <div class="card-box">
+                        <img src="./assets/products/images__7_-removebg-preview.png" class="card-img-top card-img"
+                            alt="...">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">RYMD</h5>
+                        <p class="card-text text-center">STAINLESS STEEL /37 MM.</p>
+                        <a href="#" class="btn btn-success">777 EUR</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="banner">
+        <div class="watches">
+            <img src="./assets/home-page-text-section 1.png" alt="">
+            <div class="ps-5 box">
+                <h2 class="text-warning">A rare collection within your reach</h2>
+                <p>Each model in our collection radiates an audacious retro-futurism, balanced by minimalist elegance— a
+                    nod to the rich essence of understated Swedish design.The vibrant colour palettes of the dial
+                    echoes the diversity of cultures and places across the globe, shaping timepieces that are as
+                    captivating as they are reliable.Our refusal to compromise allows us to explore uncharted artistic
+                    territory and craft timepieces with fluid, organic lines that seamlessly embrace your wrist. To
+                    ensure exceptional service and cultivate a special bond with every collector, we limit annual
+                    production to a mere 20 pieces per model release and color.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --------instagram views-------- -->
+    <section class="reveiws" id="instagram">
+
+        <div class="social-media">
+            <h4> <a href="insta">FAVOURITES FROM INSTAGRAM</a></h4>
+            <div class="social">
+                <p style="font-size: 18px;  font-weight: bold;">Pedral watches</p>
+                <p>@pedralwatches</p>
+            </div>
+
+            <div class="social">
+                <p style="font-size: 18px;  font-weight: bold;">99</p>
+                <p>Pots</p>
+            </div>
+
+
+            <div class="social">
+                <p style="font-size: 18px;  font-weight: bold;">135246</p>
+                <p>Follwers</p>
+            </div>
+
+            <div class="social">
+                <p style="font-size: 18px; font-weight: bold;">248</p>
+                <p>Following</p>
+            </div>
+            <div class="social">
+                <p> <a href="#">Discover</a></p>
+
+            </div>
+        </div>
+
+        <!-- -----products items------ -->
+        <div>
+            <div class="items">
+                <img src="./assets/reviewa/Screenshot 2024-07-03 184254 1.png" alt="">
+                <img src="./assets/reviewa/Screenshot 2024-07-03 184523.png" alt="">
+                <img src="./assets/reviewa/Screenshot 2024-07-03 184547.png" alt="">
+                <img src="./assets/reviewa/Screenshot 2024-07-03 184754 1.png" alt="">
+            </div>
+        </div>
+
+        <div id="go-to-top">
+            <img src="./assets/reviewa/fluent_arrow-next-24-filled.png" alt="top icon">
+            <p><a href="#top"> BACK TO TOP</a></p>
+        </div>
+    </section>
+
+
+    <!-- ----------footer---------- -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="./assets/logo.png" alt="">
+                <p>© 2024 Pedral Watches – All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <p>NAVIGATE</p>
+                <ul>
+                    <li>Online Botique</li>
+                    <li>Our Story</li>
+                    <li>The Journal</li>
+                    <li>Store Finder</li>
+                    <li>Store Finder</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <p>MORE INFO</p>
+                <ul>
+                    <li>Terms and Conditions</li>
+                    <li>Our Story</li>
+                    <li>FAQ</li>
+                    <li>Warranty</li>
+                    <li>Returns</li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <p>FIND US ON</p>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>FAQ</li>
+                    <li>Pint rest</li>
+                    <li>Pint rest</li>
+                </ul>
+            </div>
+            <img src="./assets/Line 1.png" alt="" id="line">
+            <div class="form">
+                <h3>JOIN THE PEDRAL FAMILY</h3>
+                <p>By signing up, you accept the terms of Pedral's Privacy Policy and consent to receive Pedral e-mails
+                    with access to our latest collections, events and initiatives.</p>
+                <form action="">
+                    <label for="">You must fill in Email Address.</label>
+                    <input type="email" name="" placeholder="Enter Your E-Mail Address">
+
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
