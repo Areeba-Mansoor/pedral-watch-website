@@ -14,6 +14,7 @@
             width: 100%;
             height: 500px;
             background-color: #0a2320;
+            /* position: relative; */
 
         }
 
@@ -33,17 +34,17 @@
 
         .brandstory {
             max-width: 800px;
+            margin: auto;
+            margin-top: -150px;
             background-color: rgb(246, 246, 246);
-            position: absolute;
+            /* position: absolute;
             top: 70%;
-            left: 25%;
+            left: 25%; */
         }
-
         .brandstory img {
             width: 800px;
             height: 400px;
         }
-
         .brandstory p {
             font-size: 16px;
             margin-top: 30px;
@@ -51,20 +52,17 @@
             padding: 10px;
         }
 
-        footer {
-            position: sticky;
-            bottom: 0;
-
-        }
-
         @media (max-width:768px) {
-            .brandstory {
+            .brand-story {
                 width: 100%;
-                left: 0;
+                height: 500px;
             }
 
-            .brandstory img {
-                width: 100%
+            .brandstory {
+              margin-top: -10px;
+            }
+            .brandstory img{
+                width: 100%;
             }
         }
     </style>
